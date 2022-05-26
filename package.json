@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run open",
-    "open": "http-server public -a localhost -p 1234 -o"
+    "open": "http-server public -a localhost -p 1234 -o",
+    "build":"tsc ./src/ ./public"
   },
   "repository": {
     "type": "git",
