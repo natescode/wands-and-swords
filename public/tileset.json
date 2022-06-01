@@ -1,115 +1,96 @@
-{
-	"columns": 0,
-	"grid": {
-		"height": 1,
-		"orientation": "orthogonal",
-		"width": 1
-	},
-	"margin": 0,
-	"name": "wands_and_swords",
-	"spacing": 0,
-	"tilecount": 16,
-	"tiledversion": "1.4.2",
-	"tileheight": 32,
-	"tiles": [
-		{
-			"id": 7,
-			"image": "beach_16x16.png",
-			"imageheight": 16,
-			"imagewidth": 16
-		},
-		{
-			"id": 8,
-			"image": "grass_16x16.png",
-			"imageheight": 16,
-			"imagewidth": 16
-		},
-		{
-			"id": 9,
-			"image": "lamp_on_table.png",
-			"imageheight": 16,
-			"imagewidth": 16
-		},
-		{
-			"id": 10,
-			"image": "night_stand.png",
-			"imageheight": 16,
-			"imagewidth": 16
-		},
-		{
-			"id": 11,
-			"image": "water_16x16.png",
-			"imageheight": 16,
-			"imagewidth": 16
-		},
-		{
-			"id": 12,
-			"image": "wood_bed.png",
-			"imageheight": 16,
-			"imagewidth": 16
-		},
-		{
-			"id": 13,
-			"image": "wood_floor.png",
-			"imageheight": 16,
-			"imagewidth": 16
-		},
-		{
-			"id": 14,
-			"image": "sand.png",
-			"imageheight": 16,
-			"imagewidth": 16
-		},
-		{
-			"id": 15,
-			"image": "big tree.png",
-			"imageheight": 16,
-			"imagewidth": 16
-		},
-		{
-			"id": 16,
-			"image": "big tree.png",
-			"imageheight": 16,
-			"imagewidth": 16
-		},
-		{
-			"id": 17,
-			"image": "tree.png",
-			"imageheight": 16,
-			"imagewidth": 16
-		},
-		{
-			"id": 18,
-			"image": "dock.png",
-			"imageheight": 16,
-			"imagewidth": 16
-		},
-		{
-			"id": 19,
-			"image": "dark_water.png",
-			"imageheight": 16,
-			"imagewidth": 16
-		},
-		{
-			"id": 20,
-			"image": "dock_partial.png",
-			"imageheight": 16,
-			"imagewidth": 16
-		},
-		{
-			"id": 21,
-			"image": "zalda.png",
-			"imageheight": 16,
-			"imagewidth": 16
-		},
-		{
-			"id": 22,
-			"image": "zalda_tall.png",
-			"imageheight": 32,
-			"imagewidth": 32
-		}
-	],
-	"tilewidth": 16,
-	"type": "tileset",
-	"version": 1.4
+{ "columns":0,
+ "grid":
+    {
+     "height":1,
+     "orientation":"orthogonal",
+     "width":1
+    },
+ "margin":0,
+ "name":"wands_and_swords",
+ "spacing":0,
+ "tilecount":13,
+ "tiledversion":"1.4.2",
+ "tileheight":16,
+ "tiles":[
+        {
+         "id":7,
+         "image":"beach_16x16.png",
+         "imageheight":16,
+         "imagewidth":16
+        }, 
+        {
+         "id":8,
+         "image":"grass_16x16.png",
+         "imageheight":16,
+         "imagewidth":16
+        }, 
+        {
+         "id":9,
+         "image":"lamp_on_table.png",
+         "imageheight":16,
+         "imagewidth":16
+        }, 
+        {
+         "id":10,
+         "image":"night_stand.png",
+         "imageheight":16,
+         "imagewidth":16
+        }, 
+        {
+         "id":11,
+         "image":"water_16x16.png",
+         "imageheight":16,
+         "imagewidth":16
+        }, 
+        {
+         "id":12,
+         "image":"wood_bed.png",
+         "imageheight":16,
+         "imagewidth":16
+        }, 
+        {
+         "id":13,
+         "image":"wood_floor.png",
+         "imageheight":16,
+         "imagewidth":16
+        }, 
+        {
+         "id":14,
+         "image":"sand.png",
+         "imageheight":16,
+         "imagewidth":16
+        }, 
+        {
+         "id":17,
+         "image":"tree.png",
+         "imageheight":16,
+         "imagewidth":16
+        }, 
+        {
+         "id":18,
+         "image":"dock.png",
+         "imageheight":16,
+         "imagewidth":16
+        }, 
+        {
+         "id":19,
+         "image":"dark_water.png",
+         "imageheight":16,
+         "imagewidth":16
+        }, 
+        {
+         "id":20,
+         "image":"dock_partial.png",
+         "imageheight":16,
+         "imagewidth":16
+        }, 
+        {
+         "id":21,
+         "image":"zalda.png",
+         "imageheight":16,
+         "imagewidth":16
+        }],
+ "tilewidth":16,
+ "type":"tileset",
+ "version":1.4
 }

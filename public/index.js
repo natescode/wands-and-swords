@@ -30,6 +30,7 @@ function loadTileset(tileset) {
 
     Promise.all(tilesetPromises)
         .then(_ => {
+            console.log(tileMap)
             fetch('./main_map.json')
                 .then(map => map.json())
                 .then(map => renderMap(map))
@@ -48,6 +49,7 @@ function loadTileset(tileset) {
 function renderMap(map) {
     const ctx = document.getElementById('canvas1').getContext('2d');
 
+    console.log(map)
     // render all the layers
     for (let l = 0; l < map.layers.length; l++) {
         let layer = map.layers[l].data
@@ -58,9 +60,13 @@ function renderMap(map) {
             for (let x = 0; x < 30; x++) {
                 // calculate array index for given x,y coordinates 
                 // also adjusts for id - 1 from Tiled
-                let tileId = layer[(y * 30 + (x + 1) - 1)]
-                // draw tile in its appropriate position
-                ctx.drawImage(tileMap[tileId], x * 16, y * 16);
+                let tileId = layer[y * 30 + (x + 1) - 1]
+                console.log(`tile: ${tileId}`)
+                if (tileId) {
+                    // draw tile in its appropriate position
+                    ctx.drawImage(tileMap[tileId], x * 16, y * 16);
+                }
+
             }
         }
     }

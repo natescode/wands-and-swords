@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tileset version="1.4" tiledversion="1.4.2" name="wands_and_swords" tilewidth="32" tileheight="32" tilecount="16" columns="0">
+<tileset version="1.4" tiledversion="1.4.2" name="wands_and_swords" tilewidth="16" tileheight="16" tilecount="13" columns="0">
  <grid orientation="orthogonal" width="1" height="1"/>
  <tile id="7">
   <image width="16" height="16" source="assets/tiles/beach_16x16.png"/>
@@ -25,12 +25,6 @@
  <tile id="14">
   <image width="16" height="16" source="assets/tiles/sand.png"/>
  </tile>
- <tile id="15">
-  <image width="16" height="16" source="assets/tiles/big tree.png"/>
- </tile>
- <tile id="16">
-  <image width="16" height="16" source="assets/tiles/big tree.png"/>
- </tile>
  <tile id="17">
   <image width="16" height="16" source="assets/tiles/tree.png"/>
  </tile>
@@ -45,8 +39,5 @@
  </tile>
  <tile id="21">
   <image width="16" height="16" source="assets/tiles/zalda.png"/>
- </tile>
- <tile id="22">
-  <image width="32" height="32" source="assets/tiles/zalda_tall.png"/>
  </tile>
 </tileset>
