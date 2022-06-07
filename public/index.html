@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,35 @@
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <title>Wands & Swords</title>
     <style>
+        body {
+            background-color: gainsboro;
+        }
+
         canvas {
-            background-color: deepskyblue
+            position: absolute;
+            margin: 0 auto;
+            padding: 0;
+            left: 50%;
+            top: 0;
+            transform: translate(-50%, 320px) scale(2.5);
+            background-color: white;
+        }
+
+        .no-antialising {
+            image-rendering: optimizeSpeed;
+            /* STOP SMOOTHING, GIVE ME SPEED  */
+            image-rendering: -moz-crisp-edges;
+            /* Firefox                        */
+            image-rendering: -o-crisp-edges;
+            /* Opera                          */
+            image-rendering: -webkit-optimize-contrast;
+            /* Chrome (and eventually Safari) */
+            image-rendering: pixelated;
+            /* Chrome */
+            image-rendering: optimize-contrast;
+            /* CSS3 Proposed                  */
+            -ms-interpolation-mode: nearest-neighbor;
+            /* IE8+                           */
         }
     </style>
 </head>
@@ -16,7 +44,7 @@
 <body>
     <h1>Wands & Swords</h1>
     <h6>Open-Source MMO RPG</h6>
-    <canvas id="canvas1" width="480" height="320"></canvas>
+    <canvas id="canvas1" class="no-antialising" width="480" height="320"></canvas>
     <script src="./index.js" defer></script>
 </body>
 
