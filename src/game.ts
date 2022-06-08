@@ -15,7 +15,7 @@ const render = (timeStamp: DOMHighResTimeStamp) => {
     start = start && timeStamp
     const step = timeStamp - start
 
-    if()
+    // if()
 }
 
 window.requestAnimationFrame(render);

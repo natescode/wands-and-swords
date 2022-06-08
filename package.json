@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm run open",
     "open": "http-server public -a localhost -p 1234 -o",
-    "build":"tsc ./src/ ./public"
+    "build": "tsc ./src/ ./public"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,6 @@
   "homepage": "https://github.com/natescode/wands-and-swords#readme",
   "dependencies": {
     "http-server": "14.1.0",
-    "typescript": "^4.6.4"
+    "typescript": "^4.7.3"
   }
 }
